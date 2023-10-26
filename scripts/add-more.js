@@ -1,7 +1,7 @@
 const showMore = document.getElementById("show-more")
 const blogs = document.getElementsByClassName("blogs")
 
-showMore.addEventListener("click", () => {
+showMore.addEventListener("pointerdown", () => {
     for (let i = 0; i < blogs.length; i++) {
         blogs[i].classList.remove("hidden")
     }
